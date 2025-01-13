@@ -7,5 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/characteristic', [CharacteristicCategoriesController::class, 'index'])
+Route::get('/characteristics', [CharacteristicCategoriesController::class, 'index'])
     ->name('characteristic');

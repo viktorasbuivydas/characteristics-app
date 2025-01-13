@@ -19,3 +19,7 @@ Visit admin panel `/admin`
 # Create user
 
 `php artisan make:filament-user` or `./vendor/bin/sail artisan make:filament-user`
+
+# Demo
+
+Visit `/characteristics` to view created characteristic categories with coresponding characteristics.

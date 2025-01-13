@@ -4,8 +4,8 @@
 
     @if($characteristicCategories->isEmpty())
         @include('components.empty', [
-            'error' => 'characteristic categories found'
-        ]);
+            'error' => 'No characteristic categories found'
+        ])
     @else
         <ul class="flex flex-col gap-2 p-4 divide-y-2 divide-gray-700">
             @foreach ($characteristicCategories as $characteristicCategory)
